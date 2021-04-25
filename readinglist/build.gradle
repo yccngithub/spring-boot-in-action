@@ -21,7 +21,9 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	implementation("org.springframework.boot:spring-boot-starter-security")
+	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
+
 test {
 	useJUnitPlatform()
 }

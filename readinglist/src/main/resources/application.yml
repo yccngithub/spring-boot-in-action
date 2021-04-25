@@ -1,0 +1,18 @@
+error:
+  whitelabel:
+    enabled: false
+
+amazon:
+  associate_id: habuma-20
+
+logging:
+  level:
+    root: DEBUG
+
+spring:
+  datasource:
+    driver-class-name:com.mysql.jdbc.Driver
+    url:jdbc:mysql://localhost:3306/test
+    username:root
+    password:123123
+
