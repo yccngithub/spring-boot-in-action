@@ -1,6 +1,6 @@
 error:
   whitelabel:
-    enabled: false
+    enabled: true
 
 amazon:
   associate_id: habuma-20
@@ -9,10 +9,10 @@ logging:
   level:
     root: DEBUG
 
-spring:
-  datasource:
-    driver-class-name:com.mysql.jdbc.Driver
-    url:jdbc:mysql://localhost:3306/test
-    username:root
-    password:123123
+#spring:
+#  jpa:
+#    properties:
+#      hibernate:
+#        enable_lazy_load_no_trans: true
+
 
